@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 92px 100px;
+    max-width: 690px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15,6 +16,7 @@
 @media screen and (max-width: 767px) {
     .intro {
         margin: 88px 0;
+        max-width: 720px;
     }
 }
 
