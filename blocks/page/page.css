@@ -1,0 +1,25 @@
+.page {
+    background: #2A2C2F;
+    box-sizing: border-box;
+    padding: 0 48px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        padding: 0 24px;;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .page {
+        padding: 0 16px;;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        padding: 0 16px;;
+    }
+}
