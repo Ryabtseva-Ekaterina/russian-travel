@@ -2,5 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 0;
+    margin-bottom: 56px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
+
