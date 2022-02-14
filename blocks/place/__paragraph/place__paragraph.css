@@ -6,13 +6,33 @@
     margin: 0;
 }
 
+.place__paragraph:first-child {
+    margin-bottom: 29px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        line-height: 1.6;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 1.63;
     }
+    .place__paragraph:first-child {
+        margin-bottom: 24px;
+    }
 }
 
-.place__paragraph:first-child {
-    margin: 0 0 26px;
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 1.62;
+        margin-top: 10px;
+    }
+    .place__paragraph:first-child {
+        margin-bottom: 24px;
+    }
 }

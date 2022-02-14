@@ -10,3 +10,9 @@
 .place__link:hover {
     opacity: 80%;
 }
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        line-height: 1.6;
+    }
+}

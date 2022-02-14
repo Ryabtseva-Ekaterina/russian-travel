@@ -2,7 +2,14 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: normal;
-    line-height: 1.7;
+    line-height: 3;
+    letter-spacing: 2px;
     color: #AAAAAA;
     margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__url-heading {
+        line-height: 2.4;
+    }
 }

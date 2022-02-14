@@ -19,19 +19,25 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px  minmax(min-content, max-content);
-        gap: 48px 28px;
+        gap: 46px 28px;
     }
 }
 
-
-@media screen and (max-width: 540px) {
+@media  screen and (max-width: 625px) {
     .place {
         grid-template-columns: minmax(min-content, max-content);
+        gap: 25px;
         grid-template-areas: 
         "title" 
         "website"
         "image" 
         "paragraph";
-        gap: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: minmax(min-content, 288px);
     }
 }

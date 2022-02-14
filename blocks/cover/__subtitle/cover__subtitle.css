@@ -9,15 +9,16 @@
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 20px 0 0;
+        margin: 34px 0 0;
+        line-height: 1.26;
     }
 }
 
 @media screen and (max-width: 540px) {
     .cover__subtitle {
         font-size: 14px;
-        line-height: 1.14;
-        margin: 16px 0 0;
-        width: 288px;
+        line-height: 1;
+        margin: 18px 0 0;
+        max-width: 288px;
     }
 }
